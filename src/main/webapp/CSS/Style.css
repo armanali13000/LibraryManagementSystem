@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+*{
+	padding: 0;
+	margin: 0;
+}
+.menu_btn
+{
+	display: flex;
+	border-bottom: 1px solid #ccc;
+		
+}
+.menu_btn button
+{
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	margin-right: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.menu_btn .fa
+{
+	margin-right: 20px;
+}
+.menu_btn button:hover .fa
+{
+	color: #bd2222;	
+}
