@@ -3,10 +3,16 @@
 	padding: 0;
 	margin: 0;
 }
+.navbar
+{
+	border: 1px solid #ccc;
+}
 .menu_btn
 {
-	display: flex;
-	border-bottom: 1px solid #ccc;
+	width: max-content;
+    display: flex;
+    /* border-bottom: 1px solid #ccc; */
+    margin: 0 auto;
 		
 }
 .menu_btn button
@@ -15,8 +21,8 @@
 	border: none;
 	outline: none;
 	cursor: pointer;
-	padding: 14px 16px;
-	margin-right: 50px;
+	padding: 10px 12px;
+	margin-right: 14px;
 	font-size: 20px;
 	font-weight: bold;
 }
@@ -24,7 +30,12 @@
 {
 	margin-right: 20px;
 }
-.menu_btn button:hover .fa
+
+
+ button:hover 
 {
-	color: #bd2222;	
+	color: #ff0000;	
+}
+button:hover svg,button:hover svg path{
+	fill:red;
 }
